@@ -3,8 +3,8 @@ se3050---uee-2021s2_reg_wd_03 created by GitHub Classroom
 
 Members :
   IT19122656
-  it19122656@my.sliit.lk
   Kavishka K.A.L
+  it19122656@my.sliit.lk
 
   IT19048642
   Rashmi Raveena .S
@@ -18,5 +18,5 @@ Members :
   Amarasinghe C.K.
   it19158396@my.sliit.lk
 
-App Name: 	Ads.lk
+App Name: 	Ads.lk ,
 App Purpose: This app is an online buy and sell app. It’s provides easy access to the latest classified marketplace in Sri Lanka. Can find vehicles, properties , jobs ,mobile phones and many more selling items and advertisements from this application. 
