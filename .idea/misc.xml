@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/drawable/commoun_button.xml" value="0.175" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/drawable/custom_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/drawable/custom_delete_button.xml" value="0.175" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/drawable/custom_popup.xml" value="0.175" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/drawable/custom_recycle_view.xml" value="0.175" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/drawable/delete_icon.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/drawable/edit.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/drawable/ic_drop.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/drawable/ic_profile.xml" value="0.175" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/layout/activity_about_us.xml" value="0.2" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/layout/activity_add_feedback.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/layout/activity_contact_us.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/layout/activity_main.xml" value="0.196875" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/layout/activity_view_feedback.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/layout/edit_popup.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/layout/view_feedback_card.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/94772/AndroidStudioProjects/Adsslk/app/src/main/res/menu/three_dot_menu.xml" value="0.1578125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

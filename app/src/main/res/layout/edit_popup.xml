@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Edit Feedback"
+        android:background="#2C9582"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#FFF"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/txtOrder_No"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_popup"
+        android:gravity="center"
+
+        android:minHeight="48dp"
+
+
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/txtsupplier_no"
+        android:text="Feedback"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/txt_comment"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_popup"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#2C9582"
+        app:cornerRadius="15dp"
+        android:layout_marginRight="50dp"
+        android:text="Send"
+        android:textSize="21dp"
+        android:gravity="center"
+
+        android:id="@+id/btn_edit_send"/>
+</LinearLayout>
