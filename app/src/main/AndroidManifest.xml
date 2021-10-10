@@ -16,10 +16,10 @@
             android:name=".ContactUs"
             android:exported="true" />
         <activity
-            android:name=".AddFeedback"
+            android:name=".View_Feedback"
             android:exported="true" />
         <activity
-            android:name=".View_Feedback"
+            android:name=".AddFeedback"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

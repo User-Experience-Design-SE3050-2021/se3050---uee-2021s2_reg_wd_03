@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -23,6 +24,7 @@ import java.util.Map;
 public class AddFeedback extends AppCompatActivity {
    EditText name,comment;
    Button btn_send;
+   ImageButton arrow;
 
     boolean isAllFieldsChecked = false;
     @Override
@@ -33,6 +35,16 @@ public class AddFeedback extends AppCompatActivity {
         name=(EditText)findViewById(R.id.feed_name);
         comment=(EditText) findViewById(R.id.feed_comment);
         btn_send=(Button) findViewById(R.id.btn_feed_send);
+        arrow=(ImageButton)findViewById(R.id.arrow_all_feed);
+
+
+
+        arrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),View_Feedback.class));
+            }
+        });
 
         btn_send.setOnClickListener(new View.OnClickListener() {
             @Override
