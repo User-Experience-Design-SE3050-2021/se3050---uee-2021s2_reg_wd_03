@@ -1,8 +1,5 @@
 package com.ads.lk;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -11,6 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -58,18 +58,18 @@ public class EditActivity extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot  dataSnapshot) {
                         if(dataSnapshot.hasChild(editTextTextEmailAddress2.getText().toString().trim())){
                             try {
-                                userob.setName(editTextTextEmailAddress2.getText().toString().trim());
-                                userob.setEmail(editTextTextEmailAddress.getText().toString().trim());
-                                userob.setPhone(editTextTextPassword.getText().toString().trim());
-                                userob.setLive(editTextTextPassword2.getText().toString().trim());
+                            userob.setName(editTextTextEmailAddress2.getText().toString().trim());
+                            userob.setEmail(editTextTextEmailAddress.getText().toString().trim());
+                            userob.setPhone(editTextTextPassword.getText().toString().trim());
+                            userob.setLive(editTextTextPassword2.getText().toString().trim());
 
-                                String name = editTextTextEmailAddress2.getText().toString().trim();
+                            String name = editTextTextEmailAddress2.getText().toString().trim();
 
-                                db = FirebaseDatabase.getInstance().getReference().child("User").child(name);
-                                db.setValue(userob);
+                            db = FirebaseDatabase.getInstance().getReference().child("User").child(name);
+                            db.setValue(userob);
 
 
-                                //Feedback to the user via a Toast..
+                            //Feedback to the user via a Toast..
 
                                 Toast.makeText(getApplicationContext(), "Data updated successfully", Toast.LENGTH_SHORT).show();
                             }

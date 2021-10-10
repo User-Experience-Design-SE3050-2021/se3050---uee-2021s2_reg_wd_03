@@ -9,7 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.ads.lk.databinding.FragmentFirst2Binding;
+import com.tantalum.adslk.R;
+import com.tantalum.adslk.databinding.FragmentFirst2Binding;
 
 public class First2Fragment extends Fragment {
 
