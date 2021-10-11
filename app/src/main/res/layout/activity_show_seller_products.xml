@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowSellerProducts">
+
+    <RelativeLayout
+        android:id="@+id/headingBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:background="@color/teal_700">
+
+        <TextView
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="111dp"
+            android:text="Seller Ads"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headingBar">
+
+        <EditText
+            android:id="@+id/searchAd"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/filterAds"
+            android:background="@color/teal_200"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawablePadding="8dp"
+            android:hint="Search" />
+
+        <ImageButton
+            android:id="@+id/filterAds"
+            android:layout_width="59dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="6dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_dashboard_24" />
+
+        <TextView
+            android:id="@+id/tvFilteredAds"
+            android:layout_width="382dp"
+            android:layout_height="57dp"
+            android:layout_below="@+id/searchAd"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Show All"
+            android:padding="15dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvFilteredAds"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/seller_ads"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

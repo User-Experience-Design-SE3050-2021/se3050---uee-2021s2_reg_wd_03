@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="1dp"
+
+    app:cardElevation="3dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A9F1CF">
+
+        <View
+            android:id="@+id/textView"
+            android:layout_width="397dp"
+            android:layout_height="414dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.153">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/ivItem"
+            android:layout_width="140dp"
+            android:layout_height="147dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_add_shopping_cart_24" />
+
+
+        <LinearLayout
+            android:layout_width="343dp"
+            android:layout_height="243dp"
+            android:layout_below="@+id/ivItem"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/bordertextfields"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_below="@+id/tvTitle"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bordertextfields"
+                android:padding="15dp" />
+
+            <TextView
+                android:id="@+id/tvCategory"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_below="@+id/tvDescription"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bordertextfields"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_below="@+id/tvCategory"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bordertextfields"
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
