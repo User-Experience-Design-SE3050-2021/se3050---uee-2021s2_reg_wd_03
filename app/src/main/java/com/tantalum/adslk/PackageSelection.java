@@ -1,12 +1,15 @@
 package com.tantalum.adslk;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,6 +24,7 @@ public class PackageSelection extends AppCompatActivity {
     Button edit,delete,adPromotaBtn,asPublishBtn;
     TextView nametxt,banknametxt,accnotxt;
     DatabaseReference reference;
+    ImageView home;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,7 @@ public class PackageSelection extends AppCompatActivity {
         nametxt= (TextView) findViewById(R.id.p_NameGetText);
         banknametxt= (TextView) findViewById(R.id.P_BnameGetText);
         accnotxt= (TextView) findViewById(R.id.P_AccNumberGetText);
+        home= (ImageView) findViewById(R.id.homeIcon);
 
         adPromotaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +58,14 @@ public class PackageSelection extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(PackageSelection.this,PublishAdPackages.class);
                 intent.putExtra("username",username);
+                startActivity(intent);
+            }
+        });
+
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PackageSelection.this,Home.class);
                 startActivity(intent);
             }
         });
@@ -75,7 +88,24 @@ public class PackageSelection extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                deleteDetails(username);
+                new AlertDialog.Builder(PackageSelection.this)
+                        .setIcon(R.drawable.icon_warning)
+                        .setTitle("Confirm Deletion")
+                        .setMessage("Are you sure to delete?")
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+
+                                deleteDetails(username);
+                            }
+                        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                }).show();
+
+//                deleteDetails(username);
             }
 
 

@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Adslk_M_App/app/src/main/res/drawable/border.xml" value="0.2" />
+        <entry key="..\:/Adslk_M_App/app/src/main/res/drawable/border_icon.xml" value="0.215625" />
         <entry key="..\:/Adslk_M_App/app/src/main/res/drawable/bordertextfields.xml" value="0.1" />
         <entry key="..\:/Adslk_M_App/app/src/main/res/drawable/custom_button.xml" value="0.2" />
         <entry key="..\:/Adslk_M_App/app/src/main/res/drawable/icon_add.xml" value="0.2203125" />
+        <entry key="..\:/Adslk_M_App/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Adslk_M_App/app/src/main/res/layout/activity_main.xml" value="0.16304347826086957" />
         <entry key="..\:/Adslk_M_App/app/src/main/res/layout/activity_package_selection.xml" value="0.22" />
         <entry key="..\:/Adslk_M_App/app/src/main/res/layout/activity_payment_add.xml" value="0.21" />
@@ -14,6 +16,8 @@
         <entry key="..\:/Adslk_M_App/app/src/main/res/layout/activity_promote_ad_packages.xml" value="0.18385416666666668" />
         <entry key="..\:/Adslk_M_App/app/src/main/res/layout/activity_publish_ad_packages.xml" value="0.18" />
         <entry key="..\:/Adslk_M_App/app/src/main/res/layout/activity_splash_screen.xml" value="0.18385416666666668" />
+        <entry key="..\:/Adslk_M_App/app/src/main/res/layout/home_item.xml" value="0.19947916666666668" />
+        <entry key="..\:/Adslk_M_App/app/src/main/res/menu/searchorder.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

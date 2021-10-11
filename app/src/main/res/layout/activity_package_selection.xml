@@ -59,7 +59,7 @@
     <TextView
         android:id="@+id/p_NameGetText"
         android:layout_width="236dp"
-        android:layout_height="33dp"
+        android:layout_height="36dp"
         android:layout_marginVertical="8dp"
         android:layout_marginStart="10dp"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
@@ -70,7 +70,7 @@
         app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
+        app:layout_constraintVertical_bias="0.176" />
 
     <TextView
         android:id="@+id/P_BnameGetText"
@@ -81,6 +81,7 @@
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
         android:textColor="#397C59"
         android:textSize="22sp"
+        android:paddingLeft="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.769"
