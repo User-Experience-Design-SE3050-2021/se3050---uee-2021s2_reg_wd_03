@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995950040911",
+    "project_id": "adslkuee-e9f63",
+    "storage_bucket": "adslkuee-e9f63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995950040911:android:54e3944cd549e20470d73a",
+        "android_client_info": {
+          "package_name": "com.tantalum.adslk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995950040911-fc848as89bolbtq1p52ehvlvdokfgd5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWr2VDjuNxzXQ_9A4D4_lhVOxvQvnKppQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995950040911-fc848as89bolbtq1p52ehvlvdokfgd5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

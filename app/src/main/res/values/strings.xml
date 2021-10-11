@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ads.lk</string>
+
+    <string-array name="packages">
+        <item>4 Days Package</item>
+        <item>7 Days Package</item>
+        <item>14 Days Package</item>
+    </string-array>
+
+    <string-array name="publish_packages">
+        <item>Lands Package</item>
+        <item>Vehicles Package</item>
+        <item>Electrics Package</item>
+    </string-array>
+
+</resources>
